@@ -15,6 +15,8 @@ mvn frontend:npm@npm-install frontend:npm@npm-build-dev
 This will compile and run spring boot application first, and then 
 it will start Tailwind CLI with `--watch` flag enabled.
 
+IntelliJ IDEA users can use run configurations from `.run` directory.
+
 When you will make changes in your html files, they will be reloaded automatically thanks to spring-boot-devtools.
 
 ## Reference

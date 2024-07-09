@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run and watch" type="CompoundRunConfigurationType">
+    <toRun name="npm install and npm run build:dev" type="MavenRunConfiguration" />
+    <toRun name="SpringBootHtmxStarterApplication" type="SpringBootApplicationConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
