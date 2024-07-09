@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Product fragments</title>
+</head>
+<body>
+<ul th:remove="all-but-first" th:fragment="product-list">
+    <li th:each="product: ${products}"
+    th:text="|${product.name} (${product.description})|">
+        Product 1 (product 1 description)
+    </li>
+    <li>Product 2 (product 2 description)</li>
+    <li>Product 3 (product 3 description)</li>
+    <li>Product 4 (product 4 description)</li>
+</ul>
+</body>
+</html>
