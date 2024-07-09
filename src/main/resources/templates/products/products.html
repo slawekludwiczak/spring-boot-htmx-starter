@@ -5,9 +5,11 @@
     <title>Product fragments</title>
 </head>
 <body>
-<ul th:remove="all-but-first" th:fragment="product-list">
+<ul th:remove="all-but-first"
+    th:fragment="product-list"
+    class="border max-w-l space-y-1 p-4 text-gray-500 list-disc list-inside dark:text-gray-400">
     <li th:each="product: ${products}"
-    th:text="|${product.name} (${product.description})|">
+        th:text="|${product.name} (${product.description})|">
         Product 1 (product 1 description)
     </li>
     <li>Product 2 (product 2 description)</li>
