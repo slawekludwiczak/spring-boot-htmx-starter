@@ -26,3 +26,5 @@ When you will make changes in your html files, they will be reloaded automatical
 [HTMX](https://htmx.org/)
 
 [Thymeleaf](https://www.thymeleaf.org/)
+
+[Tailwind](https://tailwindcss.com/)
