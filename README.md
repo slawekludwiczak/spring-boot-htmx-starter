@@ -5,6 +5,8 @@ WebJars are used for providing HTMX library.
 
 DataFaker dependency is added for test data.
 
+If you want to use Tailwind, check out the `tailwind` branch.
+
 ## Reference
 
 [Spring Boot](https://spring.io/projects/spring-boot)
